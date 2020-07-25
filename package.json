@@ -1,0 +1,30 @@
+{
+  "name": "hackatons9",
+  "version": "1.0.0",
+  "description": "Ejercicios en Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dede1421/hackatons9.git"
+  },
+  "keywords": [
+    "Ejercicios",
+    "en",
+    "Js"
+  ],
+  "author": "Andre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dede1421/hackatons9/issues"
+  },
+  "homepage": "https://github.com/Dede1421/hackatons9#readme",
+  "dependencies": {
+    "uglify-js": "^3.10.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
