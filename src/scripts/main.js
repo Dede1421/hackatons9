@@ -1,10 +1,10 @@
 //Ejercicio1
 
 function suma() {
-  let Numero1 = 30;
-  let Numero2 = 20;
+  let numero1 = 30;
+  let numero2 = 20;
 
-  return Numero1 + Numero2;
+  return numero1 + numero2;
 }
 
 console.log(`La suma de los dos números es ${suma()}`);
@@ -12,12 +12,12 @@ console.log(`La suma de los dos números es ${suma()}`);
 //Ejercicio2
 
 function promedio() {
-  let NotaMatematica = 16;
-  let NotaLenguaje = 15;
-  let NotaEconomia = 14;
-  let NotaHistoria = 13;
+  let notaMatematica = 16;
+  let notaLenguaje = 15;
+  let notaEconomia = 14;
+  let notaHistoria = 13;
 
-  return (NotaMatematica + NotaLenguaje + NotaEconomia + NotaHistoria) / 4;
+  return (notaMatematica + notaLenguaje + notaEconomia + notaHistoria) / 4;
 }
 
 console.log(`El promedio de los cursos que tiene el alumno es ${promedio()}`);
@@ -87,17 +87,17 @@ console.log(`Importador usted tiene ${conversionADolares()} en dólares`);
 
 //Ejercicio9
 
-function EdadPostulante() {
+function edadPostulante() {
   let añodeNacimientoPostulante = 1991;
 
   return 2020 - añodeNacimientoPostulante;
 }
 
-console.log(`La edad del postulante es ${EdadPostulante()} años`);
+console.log(`La edad del postulante es ${edadPostulante()} años`);
 
 //Ejercicio10
 
-function NombreYEdad() {
+function nombreYEdad() {
   let persona1 = {
     name: "Daniel",
     age: 21,
@@ -130,7 +130,7 @@ function NombreYEdad() {
   }
 }
 
-NombreYEdad();
+nombreYEdad();
 
 //Ejercicio11
 

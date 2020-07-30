@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "minify": "terser src/scripts/main.js --compress --output src/scripts/main.min.js"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,7 @@
   },
   "homepage": "https://github.com/Dede1421/hackatons9#readme",
   "dependencies": {
-    "uglify-js": "^3.10.0"
+    "terser": "^4.8.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
